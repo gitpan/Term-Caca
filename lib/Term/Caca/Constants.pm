@@ -3,7 +3,7 @@ BEGIN {
   $Term::Caca::Constants::AUTHORITY = 'cpan:YANICK';
 }
 {
-  $Term::Caca::Constants::VERSION = '1.2.0';
+  $Term::Caca::Constants::VERSION = '2.0_0';
 }
 #ABSTRACT: libcaca constants from caca.h
 
@@ -316,8 +316,6 @@ use constant {
 
 1;
 
-
-
 =pod
 
 =head1 NAME
@@ -326,7 +324,7 @@ Term::Caca::Constants - libcaca constants from caca.h
 
 =head1 VERSION
 
-version 1.2.0
+version 2.0_0
 
 =head1 SYNOPSIS
 
@@ -363,7 +361,6 @@ This is free software, licensed under:
   DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE, Version 2, December 2004
 
 =cut
-
 
 __END__
 

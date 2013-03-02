@@ -3,7 +3,7 @@ BEGIN {
   $Term::Caca::Event::AUTHORITY = 'cpan:YANICK';
 }
 {
-  $Term::Caca::Event::VERSION = '1.2.0';
+  $Term::Caca::Event::VERSION = '2.0_0';
 }
 # ABSTRACT: base class for Term::Caca events
 
@@ -34,8 +34,8 @@ sub DESTROY {
 
 1;
 
-
 __END__
+
 =pod
 
 =head1 NAME
@@ -44,7 +44,7 @@ Term::Caca::Event - base class for Term::Caca events
 
 =head1 VERSION
 
-version 1.2.0
+version 2.0_0
 
 =head1 DESCRIPTION
 
@@ -74,4 +74,3 @@ This is free software, licensed under:
   DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE, Version 2, December 2004
 
 =cut
-

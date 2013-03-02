@@ -3,7 +3,7 @@ BEGIN {
   $Term::Caca::Bitmap::AUTHORITY = 'cpan:YANICK';
 }
 {
-  $Term::Caca::Bitmap::VERSION = '1.2.0';
+  $Term::Caca::Bitmap::VERSION = '2.0_0';
 }
 #ABSTRACT: an OO-interface to caca_bitmap
 
@@ -34,8 +34,6 @@ sub DESTROY {
 
 1;
 
-
-
 =pod
 
 =head1 NAME
@@ -44,7 +42,7 @@ Term::Caca::Bitmap - an OO-interface to caca_bitmap
 
 =head1 VERSION
 
-version 1.2.0
+version 2.0_0
 
 =head1 SYNOPSIS
 
@@ -123,7 +121,6 @@ This is free software, licensed under:
   DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE, Version 2, December 2004
 
 =cut
-
 
 __END__
 

@@ -3,7 +3,7 @@ BEGIN {
   $Term::Caca::Event::Mouse::Button::AUTHORITY = 'cpan:YANICK';
 }
 {
-  $Term::Caca::Event::Mouse::Button::VERSION = '1.2.0';
+  $Term::Caca::Event::Mouse::Button::VERSION = '2.0_0';
 }
 
 use strict;
@@ -29,9 +29,8 @@ method middle { return 2 == $self->index }
 
 1;
 
-
-
 __END__
+
 =pod
 
 =head1 NAME
@@ -40,7 +39,7 @@ Term::Caca::Event::Mouse::Button
 
 =head1 VERSION
 
-version 1.2.0
+version 2.0_0
 
 =head1 AUTHORS
 
@@ -65,4 +64,3 @@ This is free software, licensed under:
   DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE, Version 2, December 2004
 
 =cut
-

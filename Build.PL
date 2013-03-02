@@ -3,13 +3,14 @@ use strict;
 use warnings;
 
 use Module::Build 0.3601;
-use lib 'inc'; use MyBuild;
+use lib qw{inc}; use MyBuild;
 
 my %module_build_args = (
   "build_requires" => {
+    "File::Find" => 0,
+    "File::Temp" => 0,
     "Module::Build" => "0.3601",
-    "Scalar::Util" => 0,
-    "Test::More" => "0.94"
+    "Test::More" => "0.88"
   },
   "configure_requires" => {
     "Module::Build" => "0.3601"
@@ -20,7 +21,7 @@ my %module_build_args = (
     "Yanick Champoux <yanick\@cpan.org>"
   ],
   "dist_name" => "Term-Caca",
-  "dist_version" => "1.2.0",
+  "dist_version" => "2.0_0",
   "license" => "unrestricted",
   "module_name" => "Term::Caca",
   "recommends" => {},
@@ -35,7 +36,7 @@ my %module_build_args = (
     "base" => 0,
     "constant" => 0,
     "parent" => 0,
-    "perl" => "5.10.0",
+    "perl" => "v5.10.0",
     "strict" => 0,
     "vars" => 0,
     "warnings" => 0

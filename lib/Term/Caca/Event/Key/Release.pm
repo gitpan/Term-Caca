@@ -3,7 +3,7 @@ BEGIN {
   $Term::Caca::Event::Key::Release::AUTHORITY = 'cpan:YANICK';
 }
 {
-  $Term::Caca::Event::Key::Release::VERSION = '1.2.0';
+  $Term::Caca::Event::Key::Release::VERSION = '2.0_0';
 }
 # abstract: event triggered by a key release
 
@@ -22,8 +22,8 @@ sub new {
 
 1;
 
-
 __END__
+
 =pod
 
 =head1 NAME
@@ -32,7 +32,7 @@ Term::Caca::Event::Key::Release
 
 =head1 VERSION
 
-version 1.2.0
+version 2.0_0
 
 =head1 SYNOPSIS
 
@@ -84,4 +84,3 @@ This is free software, licensed under:
   DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE, Version 2, December 2004
 
 =cut
-

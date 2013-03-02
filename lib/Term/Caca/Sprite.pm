@@ -3,7 +3,7 @@ BEGIN {
   $Term::Caca::Sprite::AUTHORITY = 'cpan:YANICK';
 }
 {
-  $Term::Caca::Sprite::VERSION = '1.2.0';
+  $Term::Caca::Sprite::VERSION = '2.0_0';
 }
 #ABSTRACT: an OO-interface to caca_sprite
 
@@ -56,8 +56,6 @@ sub DESTROY {
 
 1;
 
-
-
 =pod
 
 =head1 NAME
@@ -66,7 +64,7 @@ Term::Caca::Sprite - an OO-interface to caca_sprite
 
 =head1 VERSION
 
-version 1.2.0
+version 2.0_0
 
 =head1 SYNOPSIS
 
@@ -178,7 +176,6 @@ This is free software, licensed under:
   DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE, Version 2, December 2004
 
 =cut
-
 
 __END__
 

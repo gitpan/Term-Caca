@@ -11,7 +11,7 @@ no warnings qw/ uninitialized /;
 
 use parent qw/ Exporter DynaLoader /;
 
-our $VERSION = '1.2.0';
+our $VERSION = '2.0_0';
 
 Term::Caca->bootstrap($VERSION);
 
@@ -431,7 +431,7 @@ method wait_for_event ( :$mask = $ANY_EVENT, :$timeout = 0 ) {
 
 'end of Term::Caca';
 
-
+__END__
 
 =pod
 
@@ -441,7 +441,7 @@ Term::Caca - perl interface for libcaca (Colour AsCii Art library)
 
 =head1 VERSION
 
-version 1.2.0
+version 2.0_0
 
 =head1 SYNOPSIS
 
@@ -799,8 +799,3 @@ This is free software, licensed under:
   DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE, Version 2, December 2004
 
 =cut
-
-
-__END__
-
-

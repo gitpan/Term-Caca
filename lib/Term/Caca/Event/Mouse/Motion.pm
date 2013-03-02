@@ -3,7 +3,7 @@ BEGIN {
   $Term::Caca::Event::Mouse::Motion::AUTHORITY = 'cpan:YANICK';
 }
 {
-  $Term::Caca::Event::Mouse::Motion::VERSION = '1.2.0';
+  $Term::Caca::Event::Mouse::Motion::VERSION = '2.0_0';
 }
 
 use strict;
@@ -33,6 +33,7 @@ method pos {
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -41,7 +42,7 @@ Term::Caca::Event::Mouse::Motion
 
 =head1 VERSION
 
-version 1.2.0
+version 2.0_0
 
 =head1 AUTHORS
 
@@ -66,4 +67,3 @@ This is free software, licensed under:
   DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE, Version 2, December 2004
 
 =cut
-
